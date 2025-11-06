@@ -34,3 +34,4 @@ document.addEventListener('DOMContentLoaded', function() {
         card.style.cursor = 'pointer';
     });
 });
+
