@@ -695,6 +695,7 @@ body {
     padding: 28px;
     border: 2px solid #000;
     border-radius: 0;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .group-title {
@@ -718,10 +719,53 @@ body {
     border: 1px solid #ddd;
     border-radius: 0;
     transition: all 0.2s;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .award-card:hover {
     border-color: #000;
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 0 rgba(220, 38, 38, 0.2);
+}
+
+.award-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.award-name {
+    font-size: 1em;
+    color: #000;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.award-grade {
+    font-size: 0.9em;
+    color: #dc2626;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.award-meta {
+    color: #666;
+    font-size: 0.85em;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.award-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #f5f5f5;
+    border-radius: 0;
+    font-size: 0.75em;
+    color: #666;
+    font-weight: 600;
+    border: 1px solid #ddd;
 }
 
 .award-content h4 {
@@ -737,17 +781,6 @@ body {
     margin-bottom: 8px;
 }
 
-.award-tag {
-    display: inline-block;
-    padding: 3px 8px;
-    background: #f5f5f5;
-    border-radius: 0;
-    font-size: 0.75em;
-    color: #666;
-    font-weight: 500;
-    border: 1px solid #ddd;
-}
-
 .competition-list {
     display: flex;
     flex-direction: column;
@@ -760,10 +793,13 @@ body {
     border: 1px solid #ddd;
     border-radius: 0;
     transition: all 0.2s;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .competition-card:hover {
     border-color: #000;
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 0 rgba(220, 38, 38, 0.2);
 }
 
 .comp-info h4 {
@@ -779,30 +815,45 @@ body {
 }
 
 /* Certificates Section */
-.certs-grid {
+.certs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.certs-group {
+    background: #fff;
+    padding: 28px;
+    border: 2px solid #000;
+    border-radius: 0;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.certs-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 18px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
 }
 
 .cert-card {
+    padding: 20px;
     background: #fff;
-    padding: 24px;
-    border: 2px solid #000;
+    border: 1px solid #ddd;
     border-radius: 0;
-    text-align: center;
     transition: all 0.2s;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .cert-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 4px 4px 0 #dc2626;
+    border-color: #000;
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 0 rgba(220, 38, 38, 0.2);
 }
 
 .cert-card h4 {
     color: #000;
     margin-bottom: 10px;
-    font-size: 1em;
+    font-size: 1.05em;
     font-weight: 700;
 }
 
@@ -1068,3 +1119,4 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
