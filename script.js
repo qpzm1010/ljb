@@ -16,19 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById(targetId).classList.add('active');
             
             window.scrollTo({ top: 0, behavior: 'smooth' });
-            
-            if (targetId === 'skills') {
-                setTimeout(() => {
-                    const progressFills = document.querySelectorAll('.progress-fill');
-                    progressFills.forEach(fill => {
-                        const width = fill.style.width;
-                        fill.style.width = '0%';
-                        setTimeout(() => {
-                            fill.style.width = width;
-                        }, 100);
-                    });
-                }, 100);
-            }
         });
     });
     
