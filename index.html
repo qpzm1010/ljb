@@ -18,9 +18,7 @@
         
         <ul class="nav-menu">
             <li><a href="#home" class="nav-link active">About</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
             <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#education" class="nav-link">Education</a></li>
             <li><a href="#awards" class="nav-link">Awards</a></li>
             <li><a href="#certificates" class="nav-link">Certificates</a></li>
         </ul>
@@ -34,6 +32,7 @@
     </nav>
 
     <main class="main-content">
+        <div class="content-main">
         <!-- Home/About Section -->
         <section id="home" class="section active">
             <div class="hero">
@@ -81,135 +80,64 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="section">
-            <h2 class="section-title">Skills</h2>
             
-            <div class="skills-wrapper">
-                <div class="skill-category">
-                    <div class="category-header">
-                        <h3>Cloud Platform</h3>
+            <div class="education-section">
+                <h3 class="subsection-title">Education & Experience</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="marker-icon"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2023 - 2026</div>
+                            <h3>한봄고등학교 빅데이터정보과</h3>
+                            <p>
+                                파이썬을 활용한 빅데이터 분석 및 시각화 기술을 학습하며 성장했습니다.
+                                데이터베이스 프로그래밍, 응용 프로그래밍 개발 등의 과목에서 우수한 성적을 거두었습니다.
+                            </p>
+                            <div class="education-tags">
+                                <span>빅데이터 분석</span>
+                                <span>데이터 시각화</span>
+                                <span>Python</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="skill-bars">
-                        <div class="skill-bar">
-                            <div class="skill-info">
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="marker-icon"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2023 - 2026</div>
+                            <h3>전공심화동아리 - 클라우드 컴퓨팅</h3>
+                            <p>
+                                AWS, Docker, Kubernetes 등 클라우드 네이티브 기술을 깊이 있게 학습했습니다.
+                                동아리 활동을 통해 실제 프로젝트를 진행하며 클라우드 컴퓨팅 경험을 쌓았습니다.
+                            </p>
+                            <div class="education-tags">
                                 <span>AWS</span>
-                                <span>Advanced</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill aws" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span>Azure</span>
-                                <span>Intermediate</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill azure" style="width: 70%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span>GCP</span>
-                                <span>Intermediate</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill gcp" style="width: 65%"></div>
+                                <span>Docker</span>
+                                <span>Kubernetes</span>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="skill-category">
-                    <div class="category-header">
-                        <h3>Container & Orchestration</h3>
-                    </div>
-                    <div class="skill-icons">
-                        <div class="skill-icon-item">
-                            <div class="icon-box docker">
-                                <span class="icon-text">🐋</span>
-                            </div>
-                            <span>Docker</span>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="marker-icon"></div>
                         </div>
-                        
-                        <div class="skill-icon-item">
-                            <div class="icon-box k8s">
-                                <span class="icon-text">K8s</span>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2024 - 2025</div>
+                            <h3>전국기능경기대회 - 클라우드 컴퓨팅</h3>
+                            <p>
+                                경기도 대표로 2년 연속 전국기능경기대회 클라우드 컴퓨팅 종목에 출전하며
+                                아키텍처 설계 및 구축 능력을 성장시켰습니다!
+                            </p>
+                            <div class="education-tags">
+                                <span>경기도 대표</span>
+                                <span>클라우드 인프라</span>
+                                <span>대회 출전</span>
                             </div>
-                            <span>Kubernetes</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <div class="category-header">
-                        <h3>Programming</h3>
-                    </div>
-                    <div class="skill-icons">
-                        <div class="skill-icon-item">
-                            <div class="icon-box python">
-                                <span class="icon-text">Py</span>
-                            </div>
-                            <span>Python</span>
-                        </div>
-                        
-                        <div class="skill-icon-item">
-                            <div class="icon-box js">
-                                <span class="icon-text">JS</span>
-                            </div>
-                            <span>JavaScript</span>
-                        </div>
-                        
-                        <div class="skill-icon-item">
-                            <div class="icon-box html">
-                                <span class="icon-text">{ }</span>
-                            </div>
-                            <span>HTML/CSS</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <div class="category-header">
-                        <h3>Framework & Tools</h3>
-                    </div>
-                    <div class="skill-icons">
-                        <div class="skill-icon-item">
-                            <div class="icon-box framework">
-                                <span class="icon-text">Node</span>
-                            </div>
-                            <span>Node.js</span>
-                        </div>
-                        
-                        <div class="skill-icon-item">
-                            <div class="icon-box framework">
-                                <span class="icon-text">Ex</span>
-                            </div>
-                            <span>Express</span>
-                        </div>
-                        
-                        <div class="skill-icon-item">
-                            <div class="icon-box framework">
-                                <span class="icon-text">FL</span>
-                            </div>
-                            <span>Flask</span>
-                        </div>
-                        
-                        <div class="skill-icon-item">
-                            <div class="icon-box framework">
-                                <span class="icon-text">⚡</span>
-                            </div>
-                            <span>FastAPI</span>
-                        </div>
-                        
-                        <div class="skill-icon-item">
-                            <div class="icon-box data">
-                                <span class="icon-text">📊</span>
-                            </div>
-                            <span>BigData</span>
                         </div>
                     </div>
                 </div>
@@ -297,69 +225,6 @@
                         <a href="https://hanbomgo.kr/" target="_blank" class="project-link">
                             프로젝트 보기 <span class="arrow">→</span>
                         </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Education Section -->
-        <section id="education" class="section">
-            <h2 class="section-title">Education</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <div class="marker-icon"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">2023 - 2026</div>
-                        <h3>한봄고등학교 빅데이터정보과</h3>
-                        <p>
-                            파이썬을 활용한 빅데이터 분석 및 시각화 기술을 학습하고 있습니다.
-                            데이터베이스 프로그래밍, 응용 프로그래밍 개발 등의 과목에서 우수한 성적을 거두었습니다.
-                        </p>
-                        <div class="education-tags">
-                            <span>빅데이터 분석</span>
-                            <span>데이터 시각화</span>
-                            <span>Python</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <div class="marker-icon"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">2023 - 2026</div>
-                        <h3>전공심화동아리 - 클라우드 컴퓨팅</h3>
-                        <p>
-                            AWS, Docker, Kubernetes 등 클라우드 네이티브 기술을 깊이 있게 학습했습니다.
-                            동아리 활동을 통해 실제 프로젝트를 진행하며 실무 경험을 쌓았습니다.
-                        </p>
-                        <div class="education-tags">
-                            <span>AWS</span>
-                            <span>Docker</span>
-                            <span>Kubernetes</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <div class="marker-icon"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">2024 - 2025</div>
-                        <h3>전국기능경기대회 - 클라우드 컴퓨팅</h3>
-                        <p>
-                            경기도 대표로 2년 연속 전국기능경기대회 클라우드 컴퓨팅 종목에 출전하며
-                            실전 클라우드 인프라 구축 및 운영 능력을 검증받았습니다.
-                        </p>
-                        <div class="education-tags">
-                            <span>경기도 대표</span>
-                            <span>클라우드 인프라</span>
-                            <span>대회 출전</span>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -463,9 +328,130 @@
                 </div>
             </div>
         </section>
+        </div>
+        
+        <!-- Sidebar Widgets -->
+        <aside class="content-sidebar">
+            <!-- Cloud Platform Widget -->
+            <div class="widget">
+                <h4>Cloud Platform</h4>
+                <div class="cloud-platform-list">
+                    <div class="platform-item-bar">
+                        <div class="platform-bar-header">
+                            <span class="platform-name">AWS</span>
+                            <span class="platform-percent">92%</span>
+                        </div>
+                        <div class="platform-progress">
+                            <div class="platform-progress-fill" style="width: 92%; background: #FF9900;"></div>
+                        </div>
+                        <p class="platform-services">EC2, S3, Lambda, RDS, VPC</p>
+                    </div>
+                    <div class="platform-item-bar">
+                        <div class="platform-bar-header">
+                            <span class="platform-name">Azure</span>
+                            <span class="platform-percent">89%</span>
+                        </div>
+                        <div class="platform-progress">
+                            <div class="platform-progress-fill" style="width: 89%; background: #0078D4;"></div>
+                        </div>
+                        <p class="platform-services">AKS, AI Services, IaC</p>
+                    </div>
+                    <div class="platform-item-bar">
+                        <div class="platform-bar-header">
+                            <span class="platform-name">GCP</span>
+                            <span class="platform-percent">82%</span>
+                        </div>
+                        <div class="platform-progress">
+                            <div class="platform-progress-fill" style="width: 82%; background: #4285F4;"></div>
+                        </div>
+                        <p class="platform-services">GKE, Compute Engine</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Container & Orchestration -->
+            <div class="widget">
+                <h4>Container & Orchestration</h4>
+                <div class="skill-grid-widget">
+                    <div class="skill-box-widget">
+                        <div class="skill-icon-widget">🐋</div>
+                        <span class="skill-label">Docker</span>
+                    </div>
+                    <div class="skill-box-widget">
+                        <div class="skill-icon-widget">⎈</div>
+                        <span class="skill-label">Kubernetes</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Backend Development -->
+            <div class="widget">
+                <h4>Backend Development</h4>
+                <div class="skill-grid-widget">
+                    <div class="skill-box-widget">
+                        <div class="skill-icon-widget">Py</div>
+                        <span class="skill-label">Python</span>
+                    </div>
+                    <div class="skill-box-widget">
+                        <div class="skill-icon-widget">FL</div>
+                        <span class="skill-label">Flask</span>
+                    </div>
+                    <div class="skill-box-widget">
+                        <div class="skill-icon-widget">⚡</div>
+                        <span class="skill-label">FastAPI</span>
+                    </div>
+                    <div class="skill-box-widget">
+                        <div class="skill-icon-widget">Node</div>
+                        <span class="skill-label">Node.js</span>
+                    </div>
+                    <div class="skill-box-widget">
+                        <div class="skill-icon-widget">Ex</div>
+                        <span class="skill-label">Express</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Frontend Development -->
+            <div class="widget">
+                <h4>Frontend & Languages</h4>
+                <div class="skill-grid-widget">
+                    <div class="skill-box-widget">
+                        <div class="skill-icon-widget">{ }</div>
+                        <span class="skill-label">HTML/CSS</span>
+                    </div>
+                    <div class="skill-box-widget">
+                        <div class="skill-icon-widget">JS</div>
+                        <span class="skill-label">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Data & Tools -->
+            <div class="widget">
+                <h4>Data & Analysis</h4>
+                <div class="skill-grid-widget">
+                    <div class="skill-box-widget">
+                        <div class="skill-icon-widget">📊</div>
+                        <span class="skill-label">BigData</span>
+                    </div>
+                    <div class="skill-box-widget">
+                        <div class="skill-icon-widget">📈</div>
+                        <span class="skill-label">Analytics</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Quick Links Widget -->
+            <div class="widget">
+                <h4>Contact</h4>
+                <a href="mailto:aqpzm30@gmail.com" class="quick-link">✉ Email</a>
+                <a href="https://github.com/qpzm1010" target="_blank" class="quick-link">⚙ GitHub</a>
+            </div>
+        </aside>
     </main>
 
     <script src="script.js"></script>
 </body>
 </html>
+
 
